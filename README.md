@@ -38,33 +38,6 @@ index.html → app container
 
 ---
 
-# 📂 **Estrutura do Projeto**
-
-📦 projeto/
-│
-├── index.html
-├── global.css
-│
-├── css/
-│   ├── home.css
-│   ├── emi.css
-│   ├── bonnie.css
-│   ├── fanpage.css
-│   ├── links.css
-│
-├── pages/
-│   ├── home.html
-│   ├── emi.html
-│   ├── bonnie.html
-│   ├── fanpage.html
-│   ├── links.html
-│
-└── js/
-    ├── router.js
-    └── theme.js
-
----
-
 # 🚀 **Como executar**
 
 Opção 1: Rodar localmente na sua máquina
