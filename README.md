@@ -67,13 +67,19 @@ index.html → app container
 
 # 🚀 **Como executar**
 
+Opção 1: Rodar localmente na sua máquina
+
 1️⃣ Baixe ou clone o repositório:
 
-git clone https://github.com/seuusuario/EmiBonnieBrasil.git
+git clone https://github.com/seuusuario/Portal-EmiBonnie-Brasil.git
 
 2️⃣ Abra **index.html** no navegador (não precisa de servidor).
 
 3️⃣ Navegue usando os links do menu — tudo funciona sem recarregar a página.
+
+Opção 2: Entrar no link da página
+
+https://emibonniebrasil.netlify.app/#/home
 
 ---
 
