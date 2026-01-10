@@ -1,15 +1,14 @@
 /* ============================================================
-   GLOBAL ROOT VARIABLES – LIGHT MODE (default)
+   LIGHT MODE
 ============================================================ */
 :root {
-    /* Core colors */
-    --emi-primary: #ff8c42;
-    --emi-light: #ffb36b;
+    --emi-primary: #ff7e2d;
+    --emi-light: #fdbd80;
 
-    --bonnie-primary: #6a3ea1;
+    --bonnie-primary: #944fe8;
     --bonnie-light: #b08ed6;
 
-    --fan-gradient: linear-gradient(90deg, #ff8c42, #6a3ea1);
+    --fan-gradient: linear-gradient(90deg, #ff7e2d, #944fe8);
 
     /* Light theme base */
     --bg-color: #f9f4ff;
@@ -51,10 +50,10 @@
 
 html, body {
     margin: 0;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden; /* Prevent layout overflow */
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -64,36 +63,18 @@ body {
 }
 
 /* ============================================================
-   MAIN CONTENT AREA (pushes footer down)
+   MAIN CONTENT AREA
 ============================================================ */
 main {
-    flex: 1; /* already present but required */
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* centers vertically */
-    align-items: center; /* centers horizontally */
-
-    padding: 20px; /* smaller padding so centering isn’t pushed */
     width: 100%;
     max-width: 2000px;
-
     margin: 0 auto;
+    padding: 20px;
     box-sizing: border-box;
 }
 
-/*.page-card {
-    width: 100%;
-    background: var(--card-bg);
-    border-radius: 20px;
-    padding: 30px;
-    box-shadow: var(--shadow-soft);
-    text-align: center;
-    box-sizing: border-box;
-}*/
-
 /* ============================================================
-   HEADER (flex layout)
+   HEADER
 ============================================================ */
 header {
     width: 100%;
@@ -117,9 +98,6 @@ header {
     font-size: 1.3rem;
 }
 
-/* ============================================================
-   NAVIGATION (inside header)
-============================================================ */
 .top-nav {
     display: flex;
     align-items: center;
@@ -155,9 +133,6 @@ header {
     transform: scale(1.06);
 }
 
-/* ============================================================
-   THEME BUTTON
-============================================================ */
 .theme-button {
     font-size: 0.8rem;
     font-weight: 600;
@@ -178,36 +153,6 @@ header {
 }
 
 /* ============================================================
-   SECTION STYLES (Emi, Bonnie, Shared)
-============================================================ */
-.emi-section {
-    background: var(--emi-section-bg);
-    border-left: 7px solid var(--emi-primary);
-    border-radius: 16px;
-    padding: 20px;
-    margin: 20px 0;
-    text-align: center;
-}
-
-.bonnie-section {
-    background: var(--bonnie-section-bg);
-    border-left: 7px solid var(--bonnie-primary);
-    border-radius: 16px;
-    padding: 20px;
-    margin: 20px 0;
-    text-align: center;
-}
-
-.shared-section {
-    background: var(--shared-section-bg);
-    color: white;
-    border-radius: 16px;
-    padding: 20px;
-    margin: 20px 0;
-    text-align: center;
-}
-
-/* ============================================================
    FOOTER
 ============================================================ */
 footer {
@@ -221,213 +166,7 @@ footer {
 }
 
 /* ============================================================
-   HOME HERO UPGRADE
-============================================================ */
-
-/* Full page layout */
-.home-hero {
-    min-height: calc(100vh - 160px); /* full screen minus header/footer */
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* center vertically */
-    align-items: center; /* center horizontally */
-    text-align: center;
-    padding: 20px; /* small padding so centering is not pushed */
-    box-sizing: border-box;
-}
-
-/* -------------------------------
-   HERO TITLE ANIMATION
--------------------------------- */
-.hero-title {
-    font-size: 3rem;
-    font-weight: 800;
-    margin: 0;
-
-    white-space: nowrap;
-
-    background: var(--fan-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeSlide 0.8s forwards;
-}
-
-@keyframes fadeSlide {
-    0% { opacity: 0; transform: translateY(20px); }
-    100% { opacity: 1; transform: translateY(0); }
-}
-
-/* -------------------------------
-   SUBTITLE
--------------------------------- */
-.hero-subtitle {
-    max-width: 750px;
-    margin-top: 12px;
-    font-size: 1.15rem;
-    line-height: 1.6;
-
-    opacity: 0;
-    animation: fadeIn 1.2s forwards 0.2s;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-.hero-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; /* ensures text is centered */
-    text-align: center; /* ensures text itself is centered */
-}
-
-/* -------------------------------
-   BUTTONS
--------------------------------- */
-.hero-buttons {
-    margin-top: 28px;
-    display: flex;
-    gap: 18px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.hero-btn {
-    padding: 12px 22px;
-    border-radius: 16px;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 600;
-
-    transition: 0.25s ease;
-
-    /* Dynamic color depending on theme */
-    color: white; 
-    background: var(--fan-gradient); /* gradient background keeps contraste */
-}
-
-.hero-btn:hover {
-    transform: translateY(-3px);
-    filter: brightness(1.15);
-}
-
-
-/* -------------------------------
-   SPOTLIGHT IMAGE
--------------------------------- */
-.hero-image {
-    margin-top: 40px;
-    animation: fadeIn 1.5s forwards;
-}
-
-.hero-image img {
-    width: 260px;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: 0 0 25px rgba(0,0,0,0.25);
-
-    border: 4px solid rgba(255,255,255,0.15);
-}
-
-/* -------------------------------
-   STAT CARDS
--------------------------------- */
-.hero-stats {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    margin-top: 40px;
-    flex-wrap: wrap;
-}
-
-.stat-card {
-    background: var(--card-bg);
-    padding: 18px 25px;
-    border-radius: 14px;
-    text-align: center;
-    box-shadow: var(--shadow-soft);
-
-    min-width: 140px;
-}
-
-.stat-card h3 {
-    margin: 0;
-    font-size: 1.6rem;
-    font-weight: 800;
-}
-
-.stat-card p {
-    margin: 5px 0 0;
-    opacity: 0.8;
-    font-size: 0.95rem;
-}
-
-/* Responsive layout */
-@media (max-width: 600px) {
-    .hero-title {
-        font-size: 2.2rem;
-    }
-    .hero-image img {
-        width: 200px;
-    }
-}
-
-.hero-image-grid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    position: relative;
-    margin-top: 40px;
-}
-
-.image-card {
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 16px;
-    box-shadow: 0 0 25px rgba(0,0,0,0.25);
-    transition: transform 0.5s ease, opacity 0.5s ease;
-}
-
-.image-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.image-card.center {
-    transform: scale(1.2);
-    opacity: 1;
-}
-
-.image-card.side {
-    opacity: 0.5;
-}
-
-.carousel-btn {
-    background: rgba(0,0,0,0.4);
-    border: none;
-    color: white;
-    font-size: 1.5rem;
-    padding: 10px 15px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-.carousel-btn:hover {
-    background: rgba(0,0,0,0.6);
-}
-
-/* ============================================================
-   LINKS SECTION CUSTOM STYLING
+   LINKS SECTION
 ============================================================ */
 
 /* spacing + layout */
@@ -470,6 +209,61 @@ footer {
 }
 
 /* ============================================================
+   SECTION STYLES (Emi, Bonnie, Shared)
+============================================================ */
+.emi-section {
+    background: var(--emi-section-bg);
+    border-left: 7px solid var(--emi-primary);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.bonnie-section {
+    background: var(--bonnie-section-bg);
+    border-left: 7px solid var(--bonnie-primary);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.shared-section {
+    display: inline-block;
+    background: var(--shared-section-bg);
+    color: white;
+
+    border-radius: 16px;
+
+    padding: 20px;
+    padding-top: 10px !important;
+
+    width: max-content;
+    max-width: 90%;
+    margin: 20px auto;
+
+    text-align: center;
+}
+
+.shared-box {
+    background: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 0 !important;
+    padding-top: 20px !important;
+    padding-bottom: 50px !important;
+
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* ============================================================
    EMI PAGE – Wikipedia Style Layout (CORRIGIDO)
 ============================================================ */
 
@@ -489,7 +283,7 @@ footer {
     gap: 30px;
     box-sizing: border-box;
 
-    text-align: left;            
+    text-align: center;            
 }
 
 /* ============================
@@ -504,14 +298,12 @@ footer {
     border-radius: 16px;
     box-shadow: var(--shadow-soft);
 
-    /* Mantém visível ao rolar, mas NÃO é fixa na página */
     position: sticky;
     top: 20px;
 
-    /* Faz a sidebar ocupar a altura inteira disponível dentro do body */
     align-self: flex-start;
     height: fit-content;
-    max-height: calc(100vh - 40px); /* ajusta ao tamanho visível */
+    max-height: calc(100vh - 40px);
     overflow-y: auto;
 
     margin-left: 0 !important;
@@ -561,8 +353,8 @@ footer {
 
 .emi-title {
     color: var(--emi-primary);
-    text-align: left;
-    margin-bottom: 15px;
+    text-align: center !important;
+    margin-bottom: 5px;
 }
 
 /* Section block */
@@ -589,28 +381,30 @@ footer {
     margin: 8px 0;
 }
 
-/* ============================
-   Responsive behavior
-============================ */
-@media (max-width: 900px) {
-    .emi-main {
-        flex-direction: column;
-        margin: 0;
-        padding: 10px;
-    }
+/* prettier links */
+.emi-list a {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    font-weight: 600;
 
-    .emi-sidebar {
-        width: 100%;
-        position: static;
-        margin: 0 0 20px 0;
-    }
+    color: var(--text-color);
+    border-radius: 12px;
+
+    text-decoration: none;
+    transition: 0.25s ease-in-out;
+}
+
+/* hover effect */
+.emi-list a:hover {
+    background: rgba(255,255,255,0.3);
+    transform: scale(1.06);
 }
 
 /* ============================================================
    BONNIE PAGE – Wikipedia Style Layout (CORRIGIDO)
 ============================================================ */
 
-/* Main wrapper for bonnie page */
+/* Main wrapper for Bonnie page */
 .bonnie-main {
     display: flex !important;
     flex-direction: row !important;
@@ -626,7 +420,7 @@ footer {
     gap: 30px;
     box-sizing: border-box;
 
-    text-align: left;            
+    text-align: center;            
 }
 
 /* ============================
@@ -641,14 +435,12 @@ footer {
     border-radius: 16px;
     box-shadow: var(--shadow-soft);
 
-    /* Mantém visível ao rolar, mas NÃO é fixa na página */
     position: sticky;
     top: 20px;
 
-    /* Faz a sidebar ocupar a altura inteira disponível dentro do body */
     align-self: flex-start;
     height: fit-content;
-    max-height: calc(100vh - 40px); /* ajusta ao tamanho visível */
+    max-height: calc(100vh - 40px);
     overflow-y: auto;
 
     margin-left: 0 !important;
@@ -698,8 +490,8 @@ footer {
 
 .bonnie-title {
     color: var(--bonnie-primary);
-    text-align: left;
-    margin-bottom: 15px;
+    text-align: center !important;
+    margin-bottom: 5px;
 }
 
 /* Section block */
@@ -726,19 +518,281 @@ footer {
     margin: 8px 0;
 }
 
-/* ============================
-   Responsive behavior
-============================ */
-@media (max-width: 900px) {
-    .bonnie-main {
-        flex-direction: column;
-        margin: 0;
-        padding: 10px;
-    }
+/* prettier links */
+.bonnie-list a {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    font-weight: 600;
 
-    .bonnie-sidebar {
-        width: 100%;
-        position: static;
-        margin: 0 0 20px 0;
-    }
+    color: var(--text-color);
+    border-radius: 12px;
+
+    text-decoration: none;
+    transition: 0.25s ease-in-out;
+}
+
+/* hover effect */
+.bonnie-list a:hover {
+    background: rgba(255,255,255,0.3);
+    transform: scale(1.06);
+}
+
+/* ============================================================
+   HOME HERO UPGRADE
+============================================================ */
+
+/* Full page layout */
+.home {
+    min-height: calc(100vh - 160px); /* full screen minus header/footer */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* center vertically */
+    align-items: center; /* center horizontally */
+    text-align: center;
+    padding: 20px; /* small padding so centering is not pushed */
+    box-sizing: border-box;
+}
+
+/* -------------------------------
+   HERO TITLE ANIMATION
+-------------------------------- */
+.home-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+    background: var(--fan-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeSlide 0.8s forwards;
+}
+
+@keyframes fadeSlide {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* -------------------------------
+   SUBTITLE
+-------------------------------- */
+.home-subtitle {
+    max-width: 750px;
+    margin-top: 12px;
+    font-size: 1.15rem;
+    line-height: 1.6;
+
+    opacity: 0;
+    animation: fadeIn 1.2s forwards 0.2s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.home-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* ensures text is centered */
+    text-align: center; /* ensures text itself is centered */
+}
+
+/* -------------------------------
+   BUTTONS
+-------------------------------- */
+.home-buttons {
+    margin-top: 28px;
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home-btn {
+    padding: 12px 22px;
+    border-radius: 16px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+
+    transition: 0.25s ease;
+
+    /* Dynamic color depending on theme */
+    color: white; 
+    background: var(--fan-gradient); /* gradient background keeps contraste */
+}
+
+.home-btn:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.15);
+}
+
+
+/* -------------------------------
+   SPOTLIGHT IMAGE
+-------------------------------- */
+.home-image {
+    margin-top: 40px;
+    animation: fadeIn 1.5s forwards;
+}
+
+.home-image img {
+    width: 260px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.25);
+
+    border: 4px solid rgba(255,255,255,0.15);
+}
+
+/* -------------------------------
+   STAT CARDS
+-------------------------------- */
+.home-stats {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.stat-card {
+    background: var(--card-bg);
+    padding: 18px 25px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: var(--shadow-soft);
+
+    min-width: 140px;
+}
+
+.stat-card h3 {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.stat-card p {
+    margin: 5px 0 0;
+    opacity: 0.8;
+    font-size: 0.95rem;
+}
+
+.home-image-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.image-card {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.25);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.image-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-card.center {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.image-card.side {
+    opacity: 0.5;
+}
+
+.carousel-btn {
+    background: rgba(0,0,0,0.4);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.carousel-btn:hover {
+    background: rgba(0,0,0,0.6);
+}
+
+.shared-home {
+    background: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 0 !important;
+    padding-top: 20px !important;
+    padding-bottom: 50px !important;
+}
+
+/* -------------------------------
+   MOBILE FIX
+-------------------------------- */
+
+@media (max-width: 768px) {
+  /* layout de duas colunas vira uma coluna */
+  .emi-main,
+  .bonnie-main,
+  .shared-box,
+  .shared-home {
+    flex-direction: column !important;
+    padding: 10px !important;
+    gap: 15px;
+  }
+
+  .emi-sidebar,
+  .bonnie-sidebar {
+    width: 100%;
+    position: static;   /* evita comportamento estranho no mobile */
+    max-height: none;
+  }
+
+  .home-title {
+    font-size: 2.1rem;
+  }
+
+  .home-subtitle {
+    font-size: 1rem;
+    padding: 0 8px;
+  }
+
+  .home-image img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .top-nav {
+    width: 100%;
+    justify-content: flex-start;
+  }
 }
