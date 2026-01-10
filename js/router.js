@@ -45,11 +45,11 @@ async function loadPage(page) {
         if (cleanPage.includes("home.html")) setTimeout(initCarousel, 0);
 
         // Depois de carregar, rola para o hash se houver
-        const hash = page.split('#')[1];
-        if (hash) {
-            const target = document.getElementById(hash);
-            if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'instant' // ou 'smooth'
+        });
 
     } catch (e) {
         app.innerHTML = "<h2>Página não encontrada 😢</h2>";
