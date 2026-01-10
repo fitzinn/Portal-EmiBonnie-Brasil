@@ -3,7 +3,7 @@
 ============================================================ */
 
 /* Full page layout */
-.home-hero {
+.home {
     min-height: calc(100vh - 160px); /* full screen minus header/footer */
     display: flex;
     flex-direction: column;
@@ -17,12 +17,14 @@
 /* -------------------------------
    HERO TITLE ANIMATION
 -------------------------------- */
-.hero-title {
+.home-title {
     font-size: 3rem;
     font-weight: 800;
     margin: 0;
 
-    white-space: nowrap;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 
     background: var(--fan-gradient);
     -webkit-background-clip: text;
@@ -41,7 +43,7 @@
 /* -------------------------------
    SUBTITLE
 -------------------------------- */
-.hero-subtitle {
+.home-subtitle {
     max-width: 750px;
     margin-top: 12px;
     font-size: 1.15rem;
@@ -56,7 +58,7 @@
     to   { opacity: 1; }
 }
 
-.hero-content {
+.home-content {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +70,7 @@
 /* -------------------------------
    BUTTONS
 -------------------------------- */
-.hero-buttons {
+.home-buttons {
     margin-top: 28px;
     display: flex;
     gap: 18px;
@@ -76,7 +78,7 @@
     justify-content: center;
 }
 
-.hero-btn {
+.home-btn {
     padding: 12px 22px;
     border-radius: 16px;
     text-decoration: none;
@@ -90,7 +92,7 @@
     background: var(--fan-gradient); /* gradient background keeps contraste */
 }
 
-.hero-btn:hover {
+.home-btn:hover {
     transform: translateY(-3px);
     filter: brightness(1.15);
 }
@@ -99,12 +101,12 @@
 /* -------------------------------
    SPOTLIGHT IMAGE
 -------------------------------- */
-.hero-image {
+.home-image {
     margin-top: 40px;
     animation: fadeIn 1.5s forwards;
 }
 
-.hero-image img {
+.home-image img {
     width: 260px;
     height: auto;
     border-radius: 20px;
@@ -116,7 +118,7 @@
 /* -------------------------------
    STAT CARDS
 -------------------------------- */
-.hero-stats {
+.home-stats {
     display: flex;
     justify-content: center;
     gap: 25px;
@@ -146,17 +148,7 @@
     font-size: 0.95rem;
 }
 
-/* Responsive layout */
-@media (max-width: 600px) {
-    .hero-title {
-        font-size: 2.2rem;
-    }
-    .hero-image img {
-        width: 200px;
-    }
-}
-
-.hero-image-grid {
+.home-image-grid {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,4 +194,17 @@
 
 .carousel-btn:hover {
     background: rgba(0,0,0,0.6);
+}
+
+.shared-home {
+    background: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 0 !important;
+    padding-top: 20px !important;
+    padding-bottom: 50px !important;
 }

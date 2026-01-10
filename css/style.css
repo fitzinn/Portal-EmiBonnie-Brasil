@@ -152,6 +152,28 @@ header {
     opacity: 0.7;
 }
 
+.lang-button {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  transition: 0.3s ease;
+
+  white-space: nowrap;
+  border: none;              /* igual link */
+  cursor: pointer;
+}
+
+/* mesmo hover dos links da nav */
+.lang-button:hover {
+  transform: scale(1.06);
+}
+
+
 /* ============================================================
    FOOTER
 ============================================================ */

@@ -33,27 +33,31 @@ function loadCSSForPage(page) {
 
 // Load page
 async function loadPage(page) {
-    try {
-        const cleanPage = page.split('#')[0]; // remove hash se existir
-        const response = await fetch(cleanPage);
-        if (!response.ok) throw new Error("Page missing");
-        const html = await response.text();
-        app.innerHTML = html;
+  try {
+    const cleanPage = page.split('#')[0]; // remove hash se existir
+    const response = await fetch(cleanPage);
+    if (!response.ok) throw new Error("Page missing");
+    const html = await response.text();
+    app.innerHTML = html;
 
-        loadCSSForPage(cleanPage);
+    loadCSSForPage(cleanPage);
 
-        if (cleanPage.includes("home.html")) setTimeout(initCarousel, 0);
+    if (cleanPage.includes("home.html")) setTimeout(initCarousel, 0);
 
-        // Depois de carregar, rola para o hash se houver
-        window.scrollTo({
-            top: 0,
-            left: 0,
-            behavior: 'instant' // ou 'smooth'
-        });
+    // sobe para o topo sempre que trocar de página
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'instant'
+    });
 
-    } catch (e) {
-        app.innerHTML = "<h2>Página não encontrada 😢</h2>";
-    }
+    // idioma: salva PT original da nova página e aplica idioma atual
+    if (typeof cacheDefaultTexts === "function") cacheDefaultTexts();
+    if (typeof translatePage === "function") translatePage();
+
+  } catch (e) {
+    app.innerHTML = "<h2>Página não encontrada 😢</h2>";
+  }
 }
 
 

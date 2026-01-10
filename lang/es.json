@@ -1,0 +1,117 @@
+{
+  "home": {
+    "title_main": "EmiBonnie Brasil",
+    "title_welcome": "✨ ¡Bienvenidos a nuestra fanbase! ✨",
+    "description": "La primera fanbase brasileña dedicada a las actrices Emi Thasorn y Bonnie Pattraphus — actualizaciones, enlaces oficiales, curiosidades y todo sobre este fenómeno GL tailandés.<br><br>Aquí encontrarás traducciones, contenido completo y novedades siempre con mucho cariño y dedicación. 💜🧡<br><br>Mantente al día con nuestras redes sociales:<br><br>— <strong>Twitter:</strong> ayudamos con tags, trends y engagement para apoyar a EmiBonnie todos los días.<br>— <strong>YouTube:</strong> publicamos entrevistas, lives y compilados subtitulados en español con los mejores momentos de los fanmeetings.<br>— <strong>TikTok:</strong> videos constantes para que nadie se pierda ninguna novedad.<br>— <strong>Instagram:</strong> compartimos fotos, videos cortos y también apoyamos sus publis dando like, comentando y divulgando.<br>— <strong>Telegram:</strong> ya hemos publicado episodios subtitulados de <em>MouseTH</em> y pronto traeremos más.<br><br>Si quieres sugerir contenido o pedir algo específico, siempre estamos disponibles. Las admins trabajan mucho para que todo sea accesible y para que cada vez más personas conozcan y sigan a EmiBonnie.",
+    "btn_emi": "Sobre Emi",
+    "btn_bonnie": "Sobre Bonnie",
+    "btn_fanbase": "Sobre la fanbase",
+
+    "stat_year_value": "2025",
+    "stat_year_label": "Año de estreno",
+    "stat_followers_value": "+5.4K",
+    "stat_followers_label": "Seguidores",
+    "stat_projects_value": "2 Series",
+    "stat_projects_label": "Proyectos juntas"
+  },
+  "emi": {
+    "nav_title": "Navegación",
+    "nav_intro": "Introducción",
+    "nav_works": "Trabajos",
+    "nav_music": "Música",
+    "nav_awards": "Premios",
+    "nav_facts": "Datos Aleatorios",
+
+    "title": "Emi Thasorn 🧡",
+    "section_intro_title": "1. Introducción",
+
+    "intro_name": "<strong>Nombre real:</strong> Thasorn Klinnium (ทสร กลิ่นเนียม) — apodo Emi (เอมี่).",
+    "intro_birth": "<strong>Fecha de nacimiento:</strong> 25 de abril de 1998.",
+    "intro_sign": "<strong>Signo:</strong> Tauro (Aries en el zodíaco tailandés).",
+    "intro_jobs": "<strong>Profesiones:</strong> actriz, cantante, modelo y presentadora. Actúa desde 2020.",
+    "intro_agency": "<strong>Agencia:</strong> GMMTV.",
+    "intro_education": "<strong>Formación:</strong> licenciada en Artes de la Comunicación por la Facultad de Información y Tecnología de la Comunicación de la Universidad Silpakorn.",
+
+    "intro_p1": "Emi es una actriz tailandesa de ascendencia chino-tailandesa que comenzó su carrera como extra en 2020. Entró en la industria del entretenimiento después de buscar un trabajo de medio tiempo en Facebook y encontrar un anuncio para actriz figurante en la serie <em>Why R U? (2020)</em>.",
+    "intro_p2": "En 2021 ganó notoriedad al interpretar a “Nana” en la segunda temporada de <em>Girl from Nowhere</em>, un papel que llamó la atención por su talento dramático. Ese mismo año hizo su debut en el cine en <em>The Whole Truth</em>, interpretando a Paew.",
+    "intro_p3": "Emi obtuvo un papel principal como Aim-Orn, una estudiante que se vuelve bonita de la noche a la mañana, en la serie de antología de terror <em>School Tales The Series</em> (2022). Ese mismo año interpretó a Mint en <em>609 Bedtime Story</em>.",
+    "intro_p4": "En 2023 interpretó a Meena en la película <em>Hoon Payon</em>. Después de aparecer en varias series de televisión, firmó con GMMTV y su primer trabajo bajo la nueva agencia fue el papel de Pla en la serie <em>Last Twilight</em> (2023).",
+    "intro_p5": "En 2024 Emi apareció en <em>Intern in My Heart</em>. Luego interpretó a Ann, un personaje andrógino que se hace amiga de Guy (Metawin Opas-iamkajorn), el protagonista masculino de <em>Beauty Newbie</em> (2024). Más tarde asumió varios papeles en distintas series, incluida Yeepun en <em>Perfect 10 Liners</em> (2024).",
+    "intro_p6": "En 2025 obtuvo aún más reconocimiento por su papel principal sáfico en la serie GL tailandesa <em>Us</em> (2025), junto a Bonnie Pattraphus Borattasuwan.",
+    "intro_p7": "También en 2025 amplió su filmografía participando en diferentes géneros y formatos. Hizo una aparición especial como Baimon, también conocida como “Mon”, en el episodio 4 de <em>Break Up Service</em>, y asumió el papel principal de Phicha en la serie <em>Mouse</em>.",
+    "intro_p8": "Emi también protagonizó la serie <em>Friendshit Forever</em> (2025) como Tulip, reforzando su presencia como protagonista en producciones contemporáneas. Paralelamente formó parte del elenco de <em>Burnout Syndrome</em> (2025) como Ing, en un papel de apoyo que añadió otra capa dramática a su carrera y consolidó su evolución como actriz.",
+
+    "section_works_title": "2. Trabajos como actriz",
+    "section_works_series": "Series",
+    "section_works_movies": "Películas",
+    "section_works_tvshows": "Programas de TV",
+
+    "role_guest": "Papel invitado",
+    "role_main": "Papel principal",
+
+    "works_supporting": "Papel de apoyo",
+    "works_guest": "Invitada",
+    "works_regular": "Miembro regular",
+    "works_mentor": "Mentora",
+
+    "section_music_title": "3. Música",
+    "music_guest": "Aparición especial en el MV",
+
+    "section_awards_title": "4. Premios",
+    "award_won": "Ganó",
+    "award_nominated": "Nominada",
+    "award_nominated_wbonnie": "Nominada junto con Bonnie",
+
+    "section_facts_title": "5. Datos Aleatorios",
+    "section_facts_p1": "💡 Tiene su propia marca llamada IMM ANOTHER <a href=\"https://www.instagram.com/imm.another/\" target=\"_blank\">{IMMANOTHER IG}</a> <a href=\"https://x.com/imm_another\" target=\"_blank\"> {IMMANOTHER X}</a>",
+    "section_facts_p2": "💡 Comidas favoritas: fideos fritos, manzana, mango verde dulce y fresa",
+    "section_facts_p3": "💡 Color favorito: negro y naranja",
+    "section_facts_p4": "💡 A Emi no le gustan las comidas amarillas porque, según ella, normalmente son blandas o pastosas",
+    "section_facts_p5": "💡 Emi ha sido sorprendida varias veces entrando en transmisiones en vivo de vendedores de cards para comprar cards de Bonnie y cards Secrets",
+    "section_facts_p6": "💡 Emi empezó a jugar PUBG por culpa de Bonnie, pero ahora es tan adicta como ella"
+  },
+  "bonnie": {
+    "intro_name": "<strong>Nombre real:</strong> Pattraphus Borattasuwan (ภัทราภัสร์ โบรัชตะสุวรรณ์) — apodo Bonnie (บอนนี่).",
+    "intro_birth": "<strong>Fecha de nacimiento:</strong> 27 de enero de 2004.",
+    "intro_sign": "<strong>Signo:</strong> Acuario (Capricornio en el zodiaco tailandés).",
+    "intro_jobs": "<strong>Profesiones:</strong> actriz, cantante, modelo y presentadora. Activa desde 2024.",
+    "intro_agency": "<strong>Agencia:</strong> GMMTV.",
+    "intro_education": "<strong>Formación:</strong> cursando Gestión de Negocios Cibernéticos en la Facultad de Innovación en Comunicación Social de la Universidad Srinakharinwi",
+    
+    "intro_p1": "Bonnie comenzó su carrera trabajando como modelo para diversas marcas locales mientras aún era estudiante. Se destacó por su trabajo como modelo y embajadora de TWENTYWENDY, la marca de cosméticos fundada por la actriz tailandesa Love Pattranite Limpatiyakorn.",
+    "intro_p2": "En 2023, Bonnie fue descubierta por un agente de casting en redes sociales y fue invitada a una audición de actuación. Tras ser aprobada, firmó contrato con GMMTV. Su debut bajo la nueva agencia fue en un papel secundario como Peeta en la serie de televisión <em>High School Frenemy</em> (2024).",
+    "intro_p3": "En 2025, obtuvo mayor reconocimiento por su papel principal sáfico en la serie GL tailandesa <em>Us</em> (2025), junto a Emi Thasorn Klinnium.",
+    "intro_p4": "También recibió elogios por su papel secundario como Lookplub, la hermana menor de Peach, en la serie de televisión <em>Me and Thee</em> (2025).",
+    
+    "award_nominated_wemi": "Nominada junto con Emi",
+    
+    "section_facts_p1": "💡 Tiene una marca propia llamada VURV.BKK <a href=\"https://www.instagram.com/vurv.bkk/\" target=\"_blank\">{VURV IG}</a> <a href=\"https://x.com/vurvbkk\" target=\"_blank\">{VURV X}</a>",
+    "section_facts_p2": "💡 Comidas favoritas: comidas picantes, salmón, shabu y fresa",
+    "section_facts_p3": "💡 Colores favoritos: negro y púrpura rosado",
+    "section_facts_p4": "💡 Bonnie no come carne de res por preferencias religiosas (budismo)",
+    "section_facts_p5": "💡 A Bonnie le encanta el anime y ha recomendado varios como Hunter x Hunter, Haikyuu y Demon Slayer",
+    "section_facts_p6": "💡 A Bonnie le gusta jugar juegos móviles como PUBG; siempre intenta jugar con Emi, ANY y sus fans"
+  
+  },
+  "links": {
+    "title": "Links Oficiales"
+  },
+
+  "fanbase": {
+    "title": "Sobre la fanbase EmiBonnie Brasil <img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/2560px-Flag_of_Brazil.svg.png\" width=\"30\" style=\"vertical-align: middle; margin-right: 6px; margin-bottom: 6px;\">",
+
+    "p1": "EmiBonnie Brasil es la primera fanbase brasileña dedicada exclusivamente a las actrices <strong>Emi Thasorn</strong> y <strong>Bonnie Pattraphus</strong>, trayendo actualizaciones, contenido oficial, curiosidades y todo sobre este fenómeno GL tailandés.",
+    "p2": "Nuestro objetivo es apoyar, difundir y celebrar su trayectoria con responsabilidad y mucho cariño. Aquí encontrarás traducciones completas, fotos, videos, lives, entrevistas, proyectos especiales y todo hecho con dedicación por las admins.",
+
+    "links_title": "<strong>EmiBonnie Brasil</strong><br>@emibonniebr<br>Nuestras redes oficiales:",
+    "link_youtube": "YouTube",
+    "link_instagram": "Instagram",
+    "link_twitter": "Twitter",
+    "link_tiktok": "TikTok",
+    "link_telegram": "Telegram",
+
+    "p3": "— <strong>Twitter:</strong> ayudamos con tags, trends y engagement para apoyar a EmiBonnie todos los días.<br>— <strong>YouTube:</strong> publicamos entrevistas, lives y compilados con subtítulos en español.<br>— <strong>TikTok:</strong> videos constantes para que nadie se pierda ninguna novedad de las chicas.<br>— <strong>Instagram:</strong> fotos, videos cortos y apoyo a sus publicaciones patrocinadas.<br>— <strong>Telegram:</strong> ya hemos publicado 14 episodios subtitulados de <em>MouseTH</em> y pronto los 6 restantes.<br><br>Si quieres sugerir contenido o pedir algo específico, siempre estamos disponibles.",
+    "p4": "Nuestro compromiso es fortalecer el fandom brasileño, crear un ambiente acogedor y garantizar que todas las fans tengan acceso a la información con calidad, organización y mucho amor.",
+    "p5": "<strong>Gracias por ser parte de EmiBonnie Brasil. ¡Ustedes hacen que todo esto sea posible! 🧡💜</strong>"
+  }
+}

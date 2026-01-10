@@ -2,7 +2,7 @@
    BONNIE PAGE – Wikipedia Style Layout (CORRIGIDO)
 ============================================================ */
 
-/* Main wrapper for bonnie page */
+/* Main wrapper for Bonnie page */
 .bonnie-main {
     display: flex !important;
     flex-direction: row !important;
@@ -18,7 +18,7 @@
     gap: 30px;
     box-sizing: border-box;
 
-    text-align: left;            
+    text-align: center;            
 }
 
 /* ============================
@@ -33,14 +33,12 @@
     border-radius: 16px;
     box-shadow: var(--shadow-soft);
 
-    /* Mantém visível ao rolar, mas NÃO é fixa na página */
     position: sticky;
     top: 20px;
 
-    /* Faz a sidebar ocupar a altura inteira disponível dentro do body */
     align-self: flex-start;
     height: fit-content;
-    max-height: calc(100vh - 40px); /* ajusta ao tamanho visível */
+    max-height: calc(100vh - 40px);
     overflow-y: auto;
 
     margin-left: 0 !important;
@@ -90,8 +88,17 @@
 
 .bonnie-title {
     color: var(--bonnie-primary);
-    text-align: left;
-    margin-bottom: 15px;
+    text-align: center !important;
+    margin-bottom: 5px;
+}
+
+.bonnie-section {
+    background: var(--bonnie-section-bg);
+    border-left: 7px solid var(--bonnie-primary);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
 }
 
 /* Section block */
@@ -118,19 +125,21 @@
     margin: 8px 0;
 }
 
-/* ============================
-   Responsive behavior
-============================ */
-@media (max-width: 900px) {
-    .bonnie-main {
-        flex-direction: column;
-        margin: 0;
-        padding: 10px;
-    }
+/* prettier links */
+.bonnie-list a {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    font-weight: 600;
 
-    .bonnie-sidebar {
-        width: 100%;
-        position: static;
-        margin: 0 0 20px 0;
-    }
+    color: var(--text-color);
+    border-radius: 12px;
+
+    text-decoration: none;
+    transition: 0.25s ease-in-out;
+}
+
+/* hover effect */
+.bonnie-list a:hover {
+    background: rgba(255,255,255,0.3);
+    transform: scale(1.06);
 }
