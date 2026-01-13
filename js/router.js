@@ -6,6 +6,7 @@ const routes = {
     "/home": "/pages/home.html",
     "/emi": "/pages/emi.html",
     "/bonnie": "/pages/bonnie.html",
+    "/projetos": "/pages/projetos.html",
     "/fanbase": "/pages/fanpage.html",
     "/links": "/pages/links.html"
 };

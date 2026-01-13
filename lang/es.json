@@ -113,5 +113,28 @@
     "p3": "— <strong>Twitter:</strong> ayudamos con tags, trends y engagement para apoyar a EmiBonnie todos los días.<br>— <strong>YouTube:</strong> publicamos entrevistas, lives y compilados con subtítulos en español.<br>— <strong>TikTok:</strong> videos constantes para que nadie se pierda ninguna novedad de las chicas.<br>— <strong>Instagram:</strong> fotos, videos cortos y apoyo a sus publicaciones patrocinadas.<br>— <strong>Telegram:</strong> ya hemos publicado 14 episodios subtitulados de <em>MouseTH</em> y pronto los 6 restantes.<br><br>Si quieres sugerir contenido o pedir algo específico, siempre estamos disponibles.",
     "p4": "Nuestro compromiso es fortalecer el fandom brasileño, crear un ambiente acogedor y garantizar que todas las fans tengan acceso a la información con calidad, organización y mucho amor.",
     "p5": "<strong>Gracias por ser parte de EmiBonnie Brasil. ¡Ustedes hacen que todo esto sea posible! 🧡💜</strong>"
+  },
+  "projects": {
+    "nav_active": "Proyectos en curso",
+    "nav_completed": "Proyectos finalizados",
+
+    "title": "🧡 Proyectos EmiBonnie Brasil 💜",
+    "intro": "Aquí reunimos todos los proyectos organizados por EmiBonnie Brasil, incluyendo iniciativas en curso y proyectos ya finalizados.",
+
+    "active_title": "📢 Proyectos en curso",
+    "completed_title": "📂 Proyectos finalizados",
+    "completed_empty": "Aún no tenemos proyectos finalizados.<br>Este espacio contará nuestra historia muy pronto 🧡💜",
+
+    "bonnie_intro": "🎂 Proyecto de Cumpleaños de Bonnie",
+    "bonnie_desc": "Proyecto creado para representar el cariño de los fans brasileños en el cumpleaños de Bonnie, con regalos, banner y booth.",
+
+    "list_bouquet": "💐 Ramo de dinero",
+    "list_gift": "🎁 Regalo especial",
+    "list_banner": "🖼️ Banner conmemorativo",
+    "list_booth": "🏕️ Booth del evento",
+
+    "status_active": "En curso",
+
+    "card_info": "<strong>Tarjeta:</strong> solicitar por mensaje directo"
   }
 }

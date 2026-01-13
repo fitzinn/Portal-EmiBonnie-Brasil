@@ -770,6 +770,236 @@ footer {
     padding-bottom: 50px !important;
 }
 
+/* ============================================================
+   PROJECTS PAGE – EmiBonnie Brasil
+============================================================ */
+
+/* Wrapper principal */
+.projects-main {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    width: 100%;
+    gap: 30px;
+
+    box-sizing: border-box;
+}
+
+/* ============================
+   SIDEBAR
+============================ */
+.projects-sidebar {
+    width: 260px;
+    flex-shrink: 0;
+
+    padding: 20px;
+    background: var(--card-bg);
+    border-radius: 16px;
+    box-shadow: var(--shadow-soft);
+
+    position: sticky;
+    top: 20px;
+
+    height: fit-content;
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
+}
+
+.projects-sidebar h3 {
+    margin-top: 0;
+    color: var(--fan-gradient);
+    font-size: 1.1rem;
+}
+
+.projects-sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.projects-sidebar nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 6px 8px;
+    border-radius: 6px;
+    transition: 0.2s ease;
+}
+
+.projects-sidebar nav a:hover {
+    background: var(--fan-gradient);
+    color: black;
+    transform: translateX(3px);
+}
+
+/* ============================
+   CONTEÚDO
+============================ */
+.projects-content {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Header */
+.projects-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projects-title {
+    color: var(--fan-gradient);
+    margin-bottom: 10px;
+}
+
+/* ============================
+   SECTIONS
+============================ */
+.project-section-block {
+    background: var(--fan-gradient);
+    border-left: 7px solid var(--fan-gradient);
+    border-radius: 16px;
+
+    padding: 25px;
+    margin: 25px 0;
+
+    box-shadow: var(--shadow-soft);
+}
+
+.project-section-block h2 {
+    margin-top: 0;
+    color: var(--fan-gradient);
+}
+
+/* ============================
+   PROJECT CARD
+============================ */
+.project-card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 20px;
+
+    box-shadow: var(--shadow-soft);
+    transition: 0.25s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+}
+
+/* Header */
+.project-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background: var(--bonnie-primary);
+}
+
+.project-card-header h3 {
+    margin: 0;
+    color: var(--text-color);
+}
+
+/* Status */
+.project-status {
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+.project-status.active {
+    background: #d9c7ff;
+    color: #3c1f6f;
+}
+
+.project-status.completed {
+    background: #c8f0da;
+    color: #1f6f4a;
+}
+
+/* ============================
+   GALERIA
+============================ */
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.project-gallery img {
+    width: 100%;
+    border-radius: 14px;
+    object-fit: cover;
+    box-shadow: var(--shadow-soft);
+    transition: 0.25s ease;
+}
+
+.project-gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* ============================
+   TEXTO
+============================ */
+.project-text p {
+    margin-top: 0;
+}
+
+/* Lista de itens */
+.project-list {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.project-list li {
+    margin: 6px 0;
+}
+
+/* ============================
+   DOAÇÕES
+============================ */
+.donation-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    background: var(--bonnie-primary);
+    padding: 15px;
+    border-radius: 14px;
+    margin-top: 20px;
+}
+
+.donation-box img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 12px;
+    background: white;
+    padding: 8px;
+}
+
+.donation-box p {
+  margin: 0;
+  flex: 1;
+}
+
+/* ============================
+   EMPTY STATE
+============================ */
+.projects-empty {
+    text-align: center;
+    padding: 40px 20px;
+    opacity: 0.8;
+}
+
+
 /* -------------------------------
    MOBILE FIX
 -------------------------------- */
@@ -816,5 +1046,52 @@ footer {
   .top-nav {
     width: 100%;
     justify-content: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  /* layout da página de projetos em coluna no mobile */
+  .projects-main {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .projects-sidebar {
+    width: 100%;
+    position: static;     /* tira o sticky no mobile */
+    max-height: none;
+  }
+
+  .projects-content {
+    width: 100%;
+  }
+
+  /* garante que cards ocupem bem a largura no celular */
+  .project-section-block {
+    padding: 16px;
+    margin: 16px 0;
+  }
+
+  .project-card {
+    margin-top: 12px;
+    padding: 16px;
+  }
+}
+
+/* no mobile, coloca em coluna para não “jogar” o texto para longe */
+@media (max-width: 768px) {
+  .donation-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .donation-box img {
+    width: 140px;
+    height: auto;
+  }
+
+  .donation-box p {
+    flex: 0;
   }
 }
