@@ -135,5 +135,11 @@
     "status_active": "Ongoing",
 
     "card_info": "<strong>Card:</strong> request via DM"
+  },
+  "index": {
+    "home": "Home",
+    "projetos": "Projects",
+    "fanbase": "About the Fanbase",
+    "links": "Official Links"
   }
 }

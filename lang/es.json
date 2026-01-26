@@ -136,5 +136,11 @@
     "status_active": "En curso",
 
     "card_info": "<strong>Tarjeta:</strong> solicitar por mensaje directo"
+  },
+  "index": {
+    "home": "Inicio",
+    "projetos": "Proyectos",
+    "fanbase": "Sobre la Fanbase",
+    "links": "Enlaces oficiales"
   }
 }
