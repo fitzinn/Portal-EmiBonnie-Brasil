@@ -117,6 +117,9 @@
   "projects": {
     "nav_active": "Proyectos en curso",
     "nav_completed": "Proyectos finalizados",
+    "nav1": "Banner + Booth Love Session",
+    "nav2": "Ramo de Dinero Love Session",
+    "countries": "Países",
 
     "title": "🧡 Proyectos EmiBonnie Brasil 💜",
     "intro": "Aquí reunimos todos los proyectos organizados por EmiBonnie Brasil, incluyendo iniciativas en curso y proyectos ya finalizados.",
@@ -126,21 +129,127 @@
     "completed_empty": "Aún no tenemos proyectos finalizados.<br>Este espacio contará nuestra historia muy pronto 🧡💜",
 
     "bonnie_intro": "🎂 Proyecto de Cumpleaños de Bonnie",
-    "bonnie_desc": "Proyecto creado para representar el cariño de los fans brasileños en el cumpleaños de Bonnie, con regalos, banner y booth.",
 
-    "list_bouquet": "💐 Ramo de dinero",
-    "list_gift": "🎁 Regalo especial",
     "list_banner": "🖼️ Banner conmemorativo",
     "list_booth": "🏕️ Booth del evento",
 
     "status_active": "En curso",
+    "status_completed": "Concluido!",
 
-    "card_info": "<strong>Tarjeta:</strong> solicitar por mensaje directo"
+    "card_info": "<strong>Tarjeta:</strong> solicitar por mensaje directo",
+
+    "bonnie_desc": "Este proyecto fue creado para representar todo el cariño de los fans brasileños en el cumpleaños de Bonnie. Inicialmente, el plan incluía un ramo de dinero, dos regalos, un banner y un booth.<br> Sin embargo, debido a diferencias en el costo del ramo, decidimos dejar esa parte de lado y concentrar nuestros esfuerzos en los regalos, el banner y el booth. <br> Al final, todo resultó incluso mejor de lo esperado. Fueron muchas noches sin dormir, incontables conversaciones con tiendas, imprentas y proveedores, además de la creación de las artes y la organización de cada detalle, para que todo fluyera de la mejor manera posible.<br> Ver el proyecto finalizado y entregado con tanto cariño hizo que todo el esfuerzo valiera realmente la pena.<br>",
+
+    "list_gift": "🎁 2 regalos especiales",
+
+    "love_session_banner_booth_intro": "🎻 Proyecto Banner + Booth Love Session",
+    "love_session_banner_booth_desc": "Después de la finalización del proyecto de cumpleaños, dimos inicio a esta nueva iniciativa para representar a los fans brasileños en el evento Love Session. <br>El objetivo es confeccionar un banner conmemorativo y un booth para el evento, siguiendo el mismo estándar de cuidado y dedicación del proyecto anterior. <br>Las artes se están desarrollando siguiendo un cronograma que permite tiempo suficiente para revisión, producción gráfica y entrega antes del evento. <br>La recaudación permanecerá abierta hasta el 28 de febrero, con una meta definida para garantizar la ejecución completa del proyecto. <br>Cada contribución marca la diferencia. <br>Como siempre, todo el proceso se realizará con total transparencia, y todas las actualizaciones, comprobantes y etapas del proyecto serán compartidas con los fans. <br>Agradecemos sinceramente a todos los que continúan apoyando y confiando en nuestro trabajo para representar a los fans brasileños 🧡💜",
+
+    "love_session_buque_intro": "🎻 Proyecto Ramo de Dinero Love Session",
+    "love_session_buque_desc": "Este es un proyecto colaborativo entre fanbases de América Latina, creado con el objetivo de enviar un ramo de dinero al evento Love Session, que se llevará a cabo el 7 de marzo. Las fanbases participantes unieron fuerzas para representar el cariño y la unión de los fans latinos en este momento tan especial. <br>El proyecto ofrece diferentes opciones de ramos, que varían según el monto total recaudado, desde modelos más simples hasta una opción premium con un stand personalizado. <br>La elección final se definirá de acuerdo con la meta alcanzada, siempre mediante el diálogo entre las fanbases y con total transparencia durante todo el proceso. <br>Cada contribución importa, sin importar el monto. <br>Este proyecto simboliza la unión, la colaboración y la dedicación colectiva para representar a los fans latinoamericanos de la mejor manera posible 🧡💜",
+
+    "food_support_moonshadow_intro": "🌙🗝️ Proyecto Food Support Moonshadow",
+    "food_support_moonshadow_desc": "El Proyecto Food Support Moonshadow es una iniciativa organizada para enviar comida y bebidas al elenco y al equipo durante los días de grabación, como una forma de demostrar apoyo, cariño y motivación por su trabajo. <br>El proyecto funcionará a través de una lista de espera de un restaurante recomendado, con experiencia en la realización de food supports. <br>Debido a la larga fila y a que las grabaciones están previstas para una fecha posterior, este será un proyecto a largo plazo que requiere planificación y paciencia. <br>Las donaciones permanecerán abiertas durante aproximadamente tres a cuatro meses, sin una fecha límite definida por el momento, ya que estamos esperando la confirmación oficial de la fecha del food support. <br>El costo total puede variar según la cantidad y el tipo de comida elegida, con un enfoque inicial en la meta más baja para evaluar la viabilidad del proyecto. <br>Al tratarse de una iniciativa de mayor costo, será considerada como un proyecto piloto. <br>Todas las actualizaciones, decisiones y gastos serán compartidos con total transparencia, siempre con mucho cuidado para representar a los fans brasileños 🧡💜",
+
+    "metas_projeto": "📋 Metas del proyecto",
+    "descricao_projeto": "✒️ Descripción",
+    "como_doar": "💸 Cómo donar",
+    "como_doados": "💸 Cómo se realizaron las donaciones",
+
+    "list_buque1": "💐 Ramo de dinero con 30 billetes (en forma de corazón) – R$450",
+    "list_buque2": "💐 Ramo de dinero con 50 billetes (en forma de corazón) – R$650",
+    "list_buque3": "💐 Stand personalizado en forma de corazón – R$1050",
+
+    "list_comida1": "🍱 Cantidad mediana de comida – R$1400",
+    "list_comida2": "🍱 Cantidad grande de comida – R$2600",
+
+    "resultado_projeto": "📸 Resultado del proyecto",
+    "completed_message": "El resultado final de este proyecto nos llenó de orgullo. <br>Nuestro banner y booth fueron colocados junto a los demás en el área principal, y el regalo estuvo presente en la mesa de obsequios junto a los otros. <br>Bonnie se colocó al lado de nuestro banner y booth, posó para fotos e incluso hizo una reverencia en señal de agradecimiento, haciendo este momento aún más especial. <br>No solo ella se sintió feliz, todos nosotros nos sentimos profundamente realizados al ver este proyecto cobrar vida de una manera tan hermosa 🧡💜",
+
+    "lottery_title": "🎉 Resultado del sorteo",
+    "lottery_winners": "🏆 Ganadores",
+    "lottery_message": "Agradecemos sinceramente a todos los que contribuyeron a este proyecto 💖. <br>El sorteo fue una iniciativa organizada por las admins no solo para ayudar con las donaciones, sino principalmente como una forma de demostrar nuestro agradecimiento por todo el apoyo y cariño recibido. <br>Si fuera posible, todos serían ganadores, pero lamentablemente teníamos un número limitado de tarjetas disponibles para el sorteo. <br>Aun así, cada participación fue extremadamente importante para hacer este proyecto realidad 🧡💜"
   },
   "index": {
     "home": "Inicio",
     "projetos": "Proyectos",
     "fanbase": "Sobre la Fanbase",
     "links": "Enlaces oficiales"
+  },
+  "series": {
+    "cast": "Elenco Principal",
+    "script": "Guionista y Dirección",
+    "music": "Banda Sonora / OST",
+    "emotional": "La Banda Sonora Emocional de Us The Series",
+    "connection": "Conexión",
+    "titlesep": "Títulos Oficiales de los Episodios",
+    "episodes": "Episodios",
+    "pilot": "Piloto",
+
+    "love_session_banner_booth_intro": "Us The Series",
+    "titleUP": "TÍTULO",
+    "title-us": "Us รักของเรา (rak khong rao), “Nuestro Amor” — 2025, GMMTV.",
+
+    "castUP": "ELENCO PRINCIPAL",
+    "cast-text": "Protagonistas<br>• Pam — Emi Thasorn Klinnium<br>• Dokrak — Bonnie Pattraphus Borattasuwan<br><br>Amigos / Apoyo<br>• Oat — View Benyapa Jeenprasom<br>• Nene — Mim Rattanawadee Wongthong<br>• Aek — Leo Saussay<br>• Peem — Soodyacht Patsit Permpoonsavat<br>• Natcha — Samantha Melanie Coates<br>• Titang — Pumpkin<br>• Koi — Singha Luangsuntorn (Episodio 9)<br><br>Familia<br>• Kawi (hermano de Dokrak) — Sing Harit Cheewagaroon<br>• Khem (padre de Dokrak) — Jab Penpetch Benyakul<br>• Orn (madre de Dokrak) — Pupae Ramavadee Nakchudtree<br>• Bua (abuela de Pam) — Nid Sansanee Wattananukul",
+
+    "scriptUP": "GUION Y DIRECCIÓN",
+    "script-text": "Dirección: Kanittha Kwunyoo — Directora de Producción.<br><br>Origen:<br>Basado en la novela del mismo nombre de la autora Chao Planoy.<br><br>Guionistas:<br>Naphat Chitveerapat<br>Lalil Kittitanaphan<br>Nichaphat Buranadilok",
+
+    "musicUP": "BANDA SONORA / OST",
+
+    "emotionalUP": "LA BANDA SONORA EMOCIONAL DE US THE SERIES",
+    "emotional-text": "En Us, la música no solo acompaña la historia; habla por Pam y Dokrak cuando ellas no lo hacen. Cada canción lleva un punto de vista emocional distinto, transformando la banda sonora en una extensión de la narrativa.<br>Kissing Out Of Dream, interpretada por SIN, ocupa un lugar muy especial en este GL. Hay una escena donde Dokrak canta esta canción con Pam presente. Mientras Dokrak canta, Pam comienza a reaccionar físicamente, y luego llega el momento clave cuando la letra habla directamente del corazón; Dokrak mira a Pam.<br>Pam instintivamente lleva la mano a su pecho.<br>El sonido de la escena deja esto claro: su latido se vuelve irregular.<br><br>La letra de Kissing Out Of Dream habla de sentimientos que parecen irreales, como si pertenecieran a un sueño; es un amor que no debería existir pero que insiste en manifestarse a través del cuerpo antes que la razón.<br>Eso es exactamente lo que le ocurre a Pam en ese momento. Ella aún no verbaliza sus sentimientos por Dokrak, pero su cuerpo reaccionó primero. Su corazón traiciona lo que su mente intenta controlar. La música aquí se convierte en una confesión indirecta.<br><br>Between Us es la traducción exacta de lo que Dokrak siente y no sabe cómo expresar.<br>Grabada por Bonnie en Nochebuena, la canción lleva un peso emocional silencioso, casi como un secreto.<br>El MV presenta escenas delicadas y afectuosas que no aparecen en el GL, y eso no es coincidencia. Representan todo lo que Dokrak quería vivir con Pam en ese momento de la historia, pero no pudo. No por falta de amor, sino por miedo y emociones.<br>Es un video sobre el deseo contenido, sobre imaginar una vida que aún no puede ser real.<br><br>Si Between Us es duda, More Than Words es certeza. La canción de Emi representa los sentimientos de Pam hacia Dokrak: un amor genuino, tranquilo y profundo.<br>Pam no sabía que necesitaba este amor.<br>Pero fue exactamente eso lo que la salvó.<br>More Than Words trata de aquello que va más allá de lo que puede decirse, más allá del miedo y las circunstancias. Es el amor en su forma más pura.",
+
+    "conectionUP": "CONEXIÓN",
+    "conection-text": "Una de las mayores fortalezas de Us The Series es la naturalidad con la que Pam y Dokrak cobran vida. Emi y Bonnie han mencionado que, aunque había un guion definido, muchas escenas nacieron de la improvisación.<br>La directora les permitió ir más allá del texto, confiando en su conexión.<br>Momentos icónicos como la escena de la sandía y Dokrak cubriéndose la boca tímidamente nacieron de esa libertad.",
+
+    "titlesepUP": "TÍTULOS OFICIALES DE LOS EPISODIOS",
+    "titlesep-text": "A veces, Us The Series elige no explicarlo todo; confía en miradas, pequeños gestos y en la música, ejemplo de ello se ve en los títulos de los episodios.<br><BR>EP.01 — หลอกเพราะรัก (Miento Porque Amo)<br><br>Este título ya marca el tono de la serie. 'Mentir por amor'. Refleja la dinámica central del GL sobre sentimientos que existen antes del valor de reconocerlos. También conecta con escenas sobre amar en silencio y ocultar lo que se siente para no perder a la otra persona.<br><br>EP.02 — คืนศุกร์เศร้ (Un Viernes Solitario)<br><br>Una referencia directa al tono melancólico de la serie y al concepto de 'viernes triste', muy común en letras de canciones tailandesas sobre soledad. Aquí, el episodio traduce una soledad compartida.<br><br>EP.03 — ขอโทษที่บอกรัก (Perdón por Decir Te Amo)<br><br>Este título está inspirado en letras de canciones tailandesas, donde pedir perdón por amar carga culpa, miedo e inseguridad.<br>En el GL representa el momento en que sentir amor parece incorrecto, no porque esté prohibido, sino porque no era el 'momento adecuado'.<br><br>EP.04 — ซ่อนไว้ในใจ (Escondido en Mi Corazón)<br><br>Un título clásico de baladas románticas tailandesas. Aquí simboliza todo lo que Pam y Dokrak saben pero no dicen. El amor entre ellas existe, pero permanece oculto.<br><br>EP.05 — ความรักในความลับ (Amor en Secreto)<br><br>Otro título fuertemente asociado a letras románticas. El episodio habla de un amor que ya es emocionalmente real, pero que aún no puede existir públicamente.<br><BR>EP.06 — ผิดที่รัก หรือ ผิดที่เรา (¿Está Mal Amar, o Somos Nosotras las que Estamos Mal?)<br><BR>Este título es casi una frase completa de canción.<br>Expresa el conflicto central del GL:<br>¿El problema es el amor… o es el mundo que nos rodea?<br><BR>EP.07 — กลับบ้าน (Volver a Casa)<br><BR>“Volver a casa” aquí no es solo físico.<br>Es regresar a una misma, enfrentar sentimientos antiguos y entender dónde se pertenece emocionalmente.<br><BR>EP.08 — บ้านที่ไม่จบครัว (Una Casa Sin Cocina)<br><BR>Uno de los títulos más simbólicos de la serie.<br>En la cultura tailandesa, una casa sin cocina está incompleta, es un lugar donde la vida no se construye.<br>El episodio habla de relaciones que existen, pero que aún no son un hogar.<br><BR>EP.09 — คำขอโทษ (Una Disculpa)<br><BR>Este título evoca innumerables canciones tailandesas sobre arrepentimiento. Aquí, la disculpa no es solo por acciones, sino por no haber tenido el valor antes.<br><br>EP.10 — ผ้าพันแผล (Vendaje)<br><br>“Vendaje” como metáfora emocional. El episodio está lleno de reconciliación y habla del amor como algo que no borra heridas, pero ayuda a sanarlas.<br><br>EP.11 — รักของเรา (Nuestro Amor)<br><br>Este es el título más hermoso y central para la identidad de la serie. Transforma el amor individual en algo compartido. No es 'mi amor' ni 'tu amor'. ¡Es nuestro amor!<br><br>EP.12 — บอกลา...เพื่อเริ่มต้นใหม่ (Adiós… Para Comenzar de Nuevo)<br><br>Un título típico de balada de cierre.<BR>No habla de finales, sino de comienzos.<BR>Cerrar ciclos, abandonar miedos y finalmente permitir que el amor exista sin excusas.<br><br>La elección de títulos inspirados en letras de canciones no es casual.<BR>Us The Series construye su narrativa como una canción larga donde cada episodio es un verso, cada silencio es un coro no cantado.<BR>La serie es hermosa y suena como se siente.",
+
+    "ep1-title": "Sinopsis del Episodio 1",
+    "ep1-text": "Pam intenta concentrarse en sus estudios y en la rutina controlada que creó para sí misma, pero la llegada de Dokrak comienza a sacudir sus defensas. Una conexión empieza a florecer.",
+
+    "ep2-title": "Sinopsis del Episodio 2",
+    "ep2-text": "El interés de Dokrak por Pam crece en silencio mientras intenta equilibrar sus sentimientos dentro de los límites de la amistad.",
+
+    "ep3-title": "Sinopsis del Episodio 3",
+    "ep3-text": "Kawi, el hermano de Dokrak, se enamora de Pam a primera vista y le pide ayuda. Dokrak acepta mientras lucha con sus propias emociones.",
+
+    "ep4-title": "Sinopsis del Episodio 4",
+    "ep4-text": "Las emociones se vuelven más complicadas cuando Dokrak enfrenta el dilema entre apoyar a su hermano y ocultar sus verdaderos sentimientos.",
+
+    "ep5-title": "Sinopsis del Episodio 5",
+    "ep5-text": "El pasado de Pam reaparece, creando tensiones sutiles y conflictos internos.",
+
+    "ep6-title": "Sinopsis del Episodio 6",
+    "ep6-text": "En medio del caos emocional, Pam encuentra el valor para confesar sus sentimientos a Dokrak.",
+
+    "ep7-title": "Sinopsis del Episodio 7",
+    "ep7-text": "Pam y Dokrak comparten momentos más íntimos mientras enfrentan heridas familiares.",
+
+    "ep8-title": "Sinopsis del Episodio 8",
+    "ep8-text": "Dokrak enfrenta el peso de confesar su verdad y esperar una respuesta.",
+
+    "ep9-title": "Sinopsis del Episodio 9",
+    "ep9-text": "Un capítulo de decisiones difíciles y revelaciones emocionales.",
+
+    "ep10-title": "Sinopsis del Episodio 10",
+    "ep10-text": "Pam y Dokrak enfrentan los límites de su intimidad mientras lidian con urgencias familiares.",
+
+    "ep11-title": "Sinopsis del Episodio 11",
+    "ep11-text": "Pam enfrenta su pasado mientras Dokrak reflexiona sobre su propio valor. Su apoyo emocional se vuelve esencial.",
+
+    "ep12-title": "Sinopsis del Episodio 12",
+    "ep12-text": "Pam y Dokrak se unen oficialmente, abriendo un nuevo capítulo lleno de esperanza en su historia.",
+
+    "bts-text": "En este especial detrás de cámaras, el elenco de Us habla sobre la creación de la serie y sus personajes.",
+
+    "status_torelease": "¡Próximamente!",
+
+    "castms-text": "Protagonistas<br>• Chan — Emi Thasorn Klinnium<br>• Key — Bonnie Pattraphus Borattasuwan<br>• Jay — Film Rachanun Mahawan",
+
+    "pilotUP": "PILOTO",
+    "pilot-text": "Después de una ruptura dolorosa, Chan, dueña de un bar acogedor, cierra su corazón al amor. Todo cambia cuando Key, una joven cantante audaz, entra en su vida y declara abiertamente que quiere ser su sugar baby.<br><br>Lo que comienza como una relación física poco a poco se vuelve más profundo a medida que los sentimientos se vuelven innegables."
   }
 }

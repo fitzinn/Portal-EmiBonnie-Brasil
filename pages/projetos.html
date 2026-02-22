@@ -5,7 +5,14 @@
         <h3 data-i18n="emi.nav_title">Navegação</h3>
 
         <nav>
-            <a href="#andamento" data-i18n="projects.nav_active">Projetos em andamento</a>
+            <div class="nav-group">
+                <a href="#andamento" data-i18n="projects.nav_active" class="nav-main">Projetos em andamento</a>
+
+                <div class="nav-sub">
+                    <a href="#banner-booth" data-i18n="projeto.nav1">Banner + Booth Love Session</a>
+                    <a href="#buque" data-i18n="projeto.nav2">Buquê de Dinheiro Love Session</a>
+                </div>
+            </div>
             <a href="#concluidos" data-i18n="projects.nav_completed">Projetos concluídos</a>
         </nav>
     </aside>
@@ -26,11 +33,11 @@
         <section id="andamento" class="project-section-block">
             <h2 data-i18n="projects.active_title">📢 Projetos em andamento</h2>
 
-            <!-- PROJETO BONNIE -->
+            <!-- PROJETO BANNER + BOOTH LOVE SESSION -->
             <article class="project-card active">
 
                 <header class="project-card-header">
-                    <h3 data-i18n="projects.bonnie_intro">🎂 Projeto Aniversário da Bonnie</h3>
+                    <h3 id="banner-booth" data-i18n="projects.love_session_banner_booth_intro">🎻 Projeto Banner + Booth Love Session</h3>
                     <span class="project-status active" data-i18n="projects.status_active">
                         Em andamento
                     </span>
@@ -38,24 +45,40 @@
 
                 <!-- GALERIA -->
                 <div class="project-gallery">
-                    <img src="img/projeto_aniversario_bonnie_metas.png" alt="Arte do projeto">
-                    <img src="img/projeto_aniversario_bonnie_presentes.png" alt="Arte do projeto">
-                    <img src="img/projeto_aniversario_bonnie_sorteio.png" alt="Arte do projeto">
+                    <img src="img/projeto_love_session_banner_booth.png" alt="Arte do projeto">
+                    <img src="img/projeto_love_session_banner_booth_meta.png" alt="Arte do projeto">
                 </div>
 
                 <!-- TEXTO -->
                 <div class="project-text">
-                    <p data-i18n="projects.bonnie_desc">
-                        Projeto criado para representar o carinho dos fãs brasileiros
-                        no aniversário da Bonnie, com presentes, banner e booth.
-                    </p>
+                    <h3 data-i18n="projects.metas_projeto">📋 Metas do Projeto</h3>
 
                     <ul class="project-list">
-                        <li data-i18n="projects.list_bouquet">💐 Buquê de dinheiro</li>
-                        <li data-i18n="projects.list_gift">🎁 Presente especial</li>
-                        <li data-i18n="projects.list_banner">🖼️ Banner comemorativo</li>
-                        <li data-i18n="projects.list_booth">🏕️ Booth do evento</li>
+                        <li data-i18n="projects.list_banner">🖼️ Banner comemorativo - R$250</li>
+                        <li data-i18n="projects.list_booth">🏕️ Booth para o evento - R$300</li>
                     </ul>
+
+                    <h3 data-i18n="projects.descricao_projeto">✒️ Descrição</h3>
+
+                    <p data-i18n="projects.love_session_banner_booth_desc">
+                        Após a finalização do projeto de aniversário, iniciamos este novo projeto com o
+                        objetivo de representar os fãs brasileiros no evento Love Session.<br>
+                        A proposta é a confecção de um banner e um booth, seguindo o mesmo padrão e cuidado
+                        do projeto anterior.
+                        <br>
+                        As artes estão sendo desenvolvidas dentro de um cronograma que permite tempo
+                        suficiente para revisão, produção gráfica e envio dentro do prazo do evento.<br>
+                        A arrecadação permanece aberta até o dia 28/02, com meta estabelecida para garantir
+                        a execução completa do projeto.
+                        <br>
+                        Toda contribuição é importante e faz diferença. Como sempre, todo o processo será
+                        conduzido com total transparência, e todas as atualizações, comprovantes e etapas
+                        do projeto serão compartilhados com os fãs.<br>
+                        Agradecemos imensamente a todos que seguem apoiando e confiando em nosso trabalho
+                        para representar os fãs brasileiros 🧡💜<br>
+                    </p>
+
+                    <h3 data-i18n="projects.como_doar">💸 Como Doar</h3>
 
                     <div class="donation-box">
                         <img src="img/doacoes_emibonniebrasil.png" alt="QR Code de doação PIX">
@@ -76,18 +99,299 @@
                 </div>
 
             </article>
+
+            <!-- PROJETO BUQUE DINHEIRO LOVE SESSION -->
+            <article class="project-card active">
+
+                <header class="project-card-header">
+                    <h3 id="buque" data-i18n="projects.love_session_buque_intro">🎻 Projeto Buquê de Dinheiro Love Session</h3>
+                    <span class="project-status active" data-i18n="projects.status_active">
+                        Em andamento
+                    </span>
+                </header>
+
+                <!-- GALERIA -->
+                <div class="project-gallery-buque">
+                    <img src="img/projeto_love_session_buque.png" alt="Arte do projeto">
+                    <img src="img/projeto_love_session_buque_meta.png" alt="Arte do projeto">
+                    <img src="img/projeto_love_session_buque_opcoes.png" alt="Arte do projeto">
+                </div>
+
+                <!-- TEXTO -->
+                <div class="project-text">
+                    <h3 data-i18n="projects.metas_projeto">📋 Metas do Projeto</h3>
+
+                    <ul class="project-list">
+                        <li data-i18n="projects.list_buque1">💐 Buquê de Dinheiro 30 notas Formato Coração - R$450</li>
+                        <li data-i18n="projects.list_buque2">💐 Buquê de Dinheiro 50 notas Formato Coração - R$650</li>
+                        <li data-i18n="projects.list_buque3">💐 Stand Customizado Formato Coração - R$1050</li>
+                    </ul>
+
+                    <h3 data-i18n="projects.countries">Países</h3>
+
+                    <p>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/2560px-Flag_of_Brazil.svg.png" width="22" style="vertical-align: middle; margin-right: 6px;"> EmiBonnie Brasil @emibonniebr <br>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqO2qS2DZBN1qjTiqeJn6sUtHqAHk5Iskv-Q&s" width="22" style="vertical-align: middle; margin-right: 6px;"> EmiBonnie Chile @Emibonnie_CL <br>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/1280px-Flag_of_Colombia.svg.png" width="22" style="vertical-align: middle; margin-right: 6px;"> EmiBonnie Colômbia @EmiBonnieCol <br>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1280px-Flag_of_Mexico.svg.png" width="22" style="vertical-align: middle; margin-right: 6px;"> EmiBonnie México @emibonnie_mx <br>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/3840px-Flag_of_Peru.svg.png" width="22" style="vertical-align: middle; margin-right: 6px;"> EmiBonnie Peru @emibonniepe
+                    </p>
+
+                    <h3 data-i18n="projects.descricao_projeto">✒️ Descrição</h3>
+
+                    <p data-i18n="projects.love_session_buque_desc">
+                        Este é um projeto colaborativo entre fanbases da América Latina, criado com o
+                        objetivo de enviar um buquê de dinheiro para o evento Love Session, que acontecerá
+                        no dia 7 de março.<br>
+                        As fanbases participantes se uniram para representar o carinho e a união dos fãs
+                        latinos em um momento especial.
+                        <br>
+                        O projeto conta com diferentes opções de buquê, que variam de acordo com o valor
+                        total arrecadado, desde modelos mais simples até uma opção premium com stand
+                        customizado.<br>
+                        A escolha final será definida conforme a meta alcançada, sempre com diálogo entre
+                        as fanbases e total transparência em todo o processo.
+                        <br>
+                        Cada contribuição faz diferença, independentemente do valor.<br>
+                        Este projeto simboliza união, colaboração e dedicação coletiva para representar
+                        os fãs da América Latina da melhor forma possível 🧡💜<br>
+                    </p>
+
+                    <h3 data-i18n="projects.como_doar">💸 Como Doar</h3>
+
+                    <div class="donation-box">
+                        <img src="img/doacoes_emibonniebrasil.png" alt="QR Code de doação PIX">
+                        <p>
+                            <strong>Pix:</strong> emibonniebrasil.oficial@gmail.com<br>
+                            <span data-i18n="projects.card_info">
+                                <strong>Cartão:</strong> solicitar em qualquer DM
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="donation-box">
+                        <img src="img/doacoes_paypal_emibonniebrasil.png" alt="QR Code de doação PayPal">
+                        <p>
+                            <strong>PayPal:</strong> emibonniebrasil.oficial@gmail.com<br>
+                        </p>
+                    </div>
+                </div>
+
+            </article>
+        
+
+        <!-- PROJETO 
+            <article class="project-card active">
+
+                <header class="project-card-header">
+                    <h3 data-i18n="projects.food_support_moonshadow_intro">🌙🗝️ Projeto Food Support Moonshadow</h3>
+                    <span class="project-status active" data-i18n="projects.status_active">
+                        Em andamento
+                    </span>
+                </header>
+
+                <!-- GALERIA 
+                <div class="project-gallery">
+                    <img src="img/projeto_food_support_moonshadow.png" alt="Arte do projeto">
+                    <img src="img/projeto_food_support_moonshadow_metas.png" alt="Arte do projeto">
+                </div>
+
+                <!-- TEXTO 
+                <div class="project-text">
+                    <h3 data-i18n="projects.metas_projeto">📋 Meta do Projeto</h3>
+
+                    <ul class="project-list">
+                        <li data-i18n="projects.list_comida1">🍱 Quantidade Mediana de Comidas - R$1400</li>
+                        <li data-i18n="projects.list_comida2">🍱 Quantidade Grande de Comidas - R$2600</li>
+                    </ul>
+
+                    <h3 data-i18n="projects.descricao_projeto">✒️ Descrição</h3>
+
+                    <p data-i18n="projects.food_support_moonshadow_desc">
+                        O Projeto Food Support Moonshadow é uma iniciativa organizada para enviar
+                        comidas e bebidas ao elenco e à equipe durante os dias de gravação, como forma
+                        de apoio, carinho e incentivo pelo trabalho realizado.
+                        <br>
+                        O projeto funcionará a partir da entrada na fila de um restaurante recomendado
+                        e já acostumado a realizar food supports.<br>
+                        Por se tratar de uma fila longa e
+                        pelas gravações ainda estarem previstas para mais adiante, este será um projeto
+                        de longo prazo, exigindo planejamento e paciência.
+                        <br>
+                        As doações permanecerão abertas por aproximadamente 3 a 4 meses, sem uma data
+                        limite definida no momento, já que aguardamos a confirmação oficial do food
+                        support.<br>
+                        O valor total pode variar de acordo com a quantidade e o tipo de
+                        comida escolhidos, com foco inicial na meta mais baixa para avaliar a
+                        viabilidade do projeto.
+                        <br>
+                        Por ser um projeto de maior custo, ele será tratado como um projeto teste.<br>
+                        Todas as atualizações, decisões e valores serão compartilhados com total
+                        transparência, sempre com muito carinho para representar os fãs brasileiros 🧡💜<br>
+                    </p>
+
+                    <h3 data-i18n="projects.como_doar">💸 Como Doar</h3>
+
+                    <div class="donation-box">
+                        <img src="img/doacoes_emibonniebrasil.png" alt="QR Code de doação PIX">
+                        <p>
+                            <strong>Pix:</strong> emibonniebrasil.oficial@gmail.com<br>
+                            <span data-i18n="projects.card_info">
+                                <strong>Cartão:</strong> solicitar em qualquer DM
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="donation-box">
+                        <img src="img/doacoes_paypal_emibonniebrasil.png" alt="QR Code de doação PayPal">
+                        <p>
+                            <strong>PayPal:</strong> emibonniebrasil.oficial@gmail.com<br>
+                        </p>
+                    </div>
+                </div>
+
+            </article>FOOD SUPPORT MOONSHADOW -->
         </section>
+
+        
 
         <!-- PROJETOS CONCLUÍDOS -->
         <section id="concluidos" class="project-section-block">
             <h2 data-i18n="projects.completed_title">📂 Projetos concluídos</h2>
 
-            <div class="projects-empty">
-                <p data-i18n="projects.completed_empty">
-                    Ainda não temos projetos concluídos.<br>
-                    Este espaço contará nossa história em breve 🧡💜
-                </p>
-            </div>
+        <!-- PROJETO BONNIE -->
+            <article class="project-card active">
+
+                <header class="project-card-header">
+                    <h3 data-i18n="projects.bonnie_intro">🎂 Projeto Aniversário da Bonnie</h3>
+                    <span class="project-status active" data-i18n="projects.status_completed">
+                        Concluído!
+                    </span>
+                </header>
+
+                <!-- GALERIA -->
+                <div class="project-gallery">
+                    <img src="img/projeto_aniversario_bonnie_metas.png" alt="Arte do projeto">
+                    <img src="img/projeto_aniversario_bonnie_presentes.png" alt="Arte do projeto">
+                    <img src="img/projeto_aniversario_bonnie_banner.png" alt="Arte do projeto">
+                </div>
+
+                <!-- TEXTO -->
+                <div class="project-text">
+                    <h3 data-i18n="projects.metas_projeto">📋 Metas do Projeto</h3>
+                    
+                    <ul class="project-list">
+                        <li data-i18n="projects.list_gift">🎁 2 Presentes especiais - R$400</li>
+                        <li data-i18n="projects.list_banner">🖼️ Banner comemorativo - R$250</li>
+                        <li data-i18n="projects.list_booth">🏕️ Booth para o evento - R$300</li>
+                    </ul>
+
+                    <h3 data-i18n="projects.descricao_projeto">✒️ Descrição</h3>
+
+                    <p data-i18n="projects.bonnie_desc">
+                        Este projeto foi criado para representar todo o carinho dos fãs brasileiros
+                        no aniversário da Bonnie. Inicialmente, o planejamento incluía um buquê de dinheiro,
+                        dois presentes, um banner e um booth.<br>
+                        No entanto, devido a divergências no valor
+                        do buquê, optamos por abrir mão dessa parte e concentrar nossos esforços nos presentes,
+                        no banner e no booth.
+                        <br>
+                        No final, tudo deu mais do que certo. Foram muitas noites de sono perdidas,
+                        incontáveis conversas com lojas, gráficas e fornecedores, além do desenvolvimento
+                        das artes e da organização de cada detalhe, para que tudo fluísse da melhor
+                        forma possível.<br>
+                        Ver o projeto finalizado e entregue com tanto carinho fez
+                        todo o esforço valer a pena.
+                    </p>
+
+                    <h3 data-i18n="projects.como_doados">💸 Como Foram Feitas as Doações</h3>
+
+                    <div class="donation-box">
+                        <img src="img/doacoes_emibonniebrasil.png" alt="QR Code de doação PIX">
+                        <p>
+                            <strong>Pix:</strong> emibonniebrasil.oficial@gmail.com<br>
+                            <span data-i18n="projects.card_info">
+                                <strong>Cartão:</strong> solicitadas por DM
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="donation-box">
+                        <img src="img/doacoes_paypal_emibonniebrasil.png" alt="QR Code de doação PayPal">
+                        <p>
+                            <strong>PayPal:</strong> emibonniebrasil.oficial@gmail.com<br>
+                        </p>
+                    </div>
+
+                    <!-- FOTOS E VIDEO DO PROJETO CONCLUIDO + MENSAGEM -->
+                    <section class="project-result">
+                        <h3 data-i18n="projects.resultado_projeto">📸 Resultado do projeto</h3>
+
+                    <div class="project-media-stack-resultado">
+                        <img src="img/projeto_aniversario_bonnie_resultado.jpg" alt="Resultado do projeto">
+                    
+                        <video controls>
+                            <source src="video/projeto_aniversario_bonnie_resultado.mp4" type="video/mp4">
+                            Seu navegador não suporta vídeo.
+                        </video>
+                    </div>
+                    
+                        <p class="project-message" data-i18n="projects.completed_message">
+                            O resultado final desse projeto nos encheu de orgulho 💖  <br>
+                            Nosso banner e booth ficaram posicionados junto aos demais, na área principal,
+                            e o presente também esteve presente na mesa de gifts ao lado dos outros.<br>
+                            A Bonnie ficou ao lado do nosso banner e booth, posou para fotos e ainda fez uma reverência
+                            em agradecimento, tornando esse momento ainda mais especial.<br>
+                            Não foi apenas ela que ficou feliz, todos nós também nos sentimos realizados
+                            ao ver esse projeto ganhar vida da forma mais linda possível. 🧡💜<br>
+                        </p>
+                    </section>
+
+                    <!-- RESULTADO SORTEIO -->
+                    <section class="project-lottery">
+                        <h3 data-i18n="projects.lottery_title">🎉 Resultado do sorteio</h3>
+
+                        <div class="project-media-stack">
+                            <!-- FOTO DO SORTEIO -->
+                            <img src="img/projeto_aniversario_bonnie_sorteio.png" alt="Resultado do sorteio">
+                        
+                            <!-- VÍDEO DO SORTEIO -->
+                            <video controls>
+                                <source src="video/sorteio_bonnie_resultado.mp4" type="video/mp4">
+                                Seu navegador não suporta vídeo.
+                            </video>
+                        </div>
+                    
+                        <div class="lottery-winners">
+                            <h3 data-i18n="projects.lottery_winners">🏆 Ganhadores</h3>
+                        
+                            <ul>
+                                <li>Isabella</li>
+                                <li>Sabrina</li>
+                                <li>Lívia</li>
+                                <li>Isabele</li>
+                                <li>Kaori</li>
+                                <li>Ruth</li>
+                                <li>Stefanni</li>
+                                <li>Amenda</li>
+                                <li>Helen</li>
+                                <li>May</li>
+                            </ul>
+
+                            <p class="project-message" data-i18n="projects.lottery_message">
+                                Agradecemos de coração a todos que contribuíram com esse projeto 💖  <br>
+                                O sorteio foi uma iniciativa dos administradores como forma de ajudar nas doações,
+                                mas principalmente para agradecer todo o apoio e carinho recebidos. <br>
+                                Se fosse possível, todos vocês seriam ganhadores, porém tivemos uma quantidade
+                                limitada de cards disponíveis para o sorteio. <br>
+                                Mesmo assim, cada participação foi extremamente importante para tornar
+                                esse projeto realidade. 🧡💜
+                            </p>
+                        </div>
+                    </section>
+                </div>
+
+            </article>
         </section>
 
     </section>

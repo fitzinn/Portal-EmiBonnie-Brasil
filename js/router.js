@@ -8,6 +8,7 @@ const routes = {
     "/bonnie": "/pages/bonnie.html",
     "/projetos": "/pages/projetos.html",
     "/fanbase": "/pages/fanpage.html",
+    "/series": "/pages/series.html",
     "/links": "/pages/links.html"
 };
 
@@ -33,9 +34,10 @@ function loadCSSForPage(page) {
 }
 
 // Load page
+// Load page
 async function loadPage(page) {
   try {
-    const cleanPage = page.split('#')[0]; // remove hash se existir
+    const cleanPage = page.split('#')[0];
     const response = await fetch(cleanPage);
     if (!response.ok) throw new Error("Page missing");
     const html = await response.text();
@@ -44,15 +46,14 @@ async function loadPage(page) {
     loadCSSForPage(cleanPage);
 
     if (cleanPage.includes("home.html")) setTimeout(initCarousel, 0);
+    if (cleanPage.includes("series.html")) setTimeout(initEpisodePlayers, 0);
 
-    // sobe para o topo sempre que trocar de página
     window.scrollTo({
       top: 0,
       left: 0,
       behavior: 'instant'
     });
 
-    // idioma: salva PT original da nova página e aplica idioma atual
     if (typeof cacheDefaultTexts === "function") cacheDefaultTexts();
     if (typeof translatePage === "function") translatePage();
 
