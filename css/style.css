@@ -709,6 +709,16 @@ footer {
     font-size: 0.95rem;
 }
 
+.stat-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.stat-card-link:hover {
+    cursor: pointer;
+}
+
 .home-image-grid {
     display: flex;
     justify-content: center;
@@ -1079,7 +1089,7 @@ footer {
 }
 
 /* no mobile, coloca em coluna para não “jogar” o texto para longe */
-@media (max-width: 768px) {
+@media (max-width: 1010px) {
   .donation-box {
     flex-direction: column;
     align-items: center;
@@ -1193,6 +1203,44 @@ footer {
 
 .project-gallery-buque img:hover {
     transform: scale(1.05);
+}
+
+@media (max-width: 1510px) {
+
+    .project-gallery-buque {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 15px;
+        margin: 20px 0;
+    }
+
+    .project-gallery-buque img {
+        width: 100%;
+        height: auto;
+        max-height: none;
+        object-fit: contain;
+    }
+
+    .project-media-stack,
+    .project-media-stack-resultado {
+        flex-direction: column;   /* empilha */
+        align-items: center;
+    }
+
+    .project-media-stack img,
+    .project-media-stack-resultado img {
+        width: 100%;
+        height: auto;        /* mantém proporção */
+        max-height: none;    /* remove limite */
+    }
+
+    .project-media-stack video,
+    .project-media-stack-resultado video {
+        width: 100%;
+        max-width: 100%;     /* ocupa tudo */
+        height: auto;
+    }
+
 }
 
 /* ============================================================
@@ -1368,6 +1416,19 @@ footer {
 
 .serie-gallery img:hover {
     transform: scale(1.05);
+}
+
+@media (max-width: 1510px) {
+
+    .serie-gallery {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 10px;
+    }
+
+    .serie-gallery img {
+        height: 220px; /* menor no mobile */
+    }
+
 }
 
 /* ============================
