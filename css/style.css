@@ -614,6 +614,16 @@ footer {
     animation: fadeIn 1.2s forwards 0.2s;
 }
 
+.home-subtitle a {
+    color: inherit;              
+    text-decoration: none;       
+    font-weight: 600;         
+}
+
+.home-subtitle a:hover {
+    text-decoration: underline; 
+}
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -1426,7 +1436,7 @@ footer {
     }
 
     .serie-gallery img {
-        height: 220px; /* menor no mobile */
+        height: 220px;
     }
 
 }
@@ -1564,8 +1574,46 @@ footer {
     background: rgba(255,255,255,0.08);
 }
 
+/* ============================
+   EMOJI GUITARRA
+============================ */
+
 .emoji-icon {
   width: 1.3em;
   height: 1.3em;
   vertical-align: -0.27em;
+}
+
+/* ============================
+   BOTÃO VOLTAR AO INICIO
+============================ */
+
+.scroll-top-btn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+
+    background: var(--fan-gradient);
+    box-shadow: var(--shadow-soft);
+    font-size: 18px;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 999;
+}
+
+.scroll-top-btn.show {
+    display: flex;
+}
+
+.scroll-top-btn:hover {
+    transform: translateY(-3px);
 }
