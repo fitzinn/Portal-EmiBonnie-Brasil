@@ -2,7 +2,7 @@
   "home": {
     "title_main": "EmiBonnie Brasil",
     "title_welcome": "✨ Welcome to our fanbase! ✨",
-    "description": "The first Brazilian fanbase dedicated to actresses Emi Thasorn and Bonnie Pattraphus — updates, official links, fun facts and everything about this Thai GL phenomenon.<br><br>Here you will find translations, full content and news always prepared with a lot of love and dedication. 💜🧡<br><br>Stay tuned to our socials:<br><br>— <strong>Twitter:</strong> we help with tags, trends and engagement to support EmiBonnie every day.<br>— <strong>YouTube:</strong> we post interviews, lives and compilation videos with English subtitles featuring the best fanmeeting moments.<br>— <strong>TikTok:</strong> constant videos so no one misses any news about the girls.<br>— <strong>Instagram:</strong> we share photos, short videos and also support their sponsored posts by liking, commenting and sharing.<br>— <strong>Telegram:</strong> we have already released 14 subtitled episodes of <em>MouseTH</em>, and the remaining 6 will be coming soon.<br><br>If you want to suggest content or request something specific, we are always available. The admins work hard to keep everything accessible and to help more and more people discover and follow EmiBonnie.",
+    "description": "The first Brazilian fanbase dedicated to actresses Emi Thasorn and Bonnie Pattraphus — updates, official links, fun facts and everything about this Thai GL phenomenon.<br><br>Here you will find translations, full content and news always prepared with a lot of love and dedication. 💜🧡<br><br>Stay tuned to our socials:<br><br>— <a href='https://x.com/emibonniebr' target='_blank'><strong>Twitter:</strong></a> we help with tags, trends and engagement to support EmiBonnie every day.<br>— <a href='https://www.youtube.com/@emibonniebr' target='_blank'><strong>YouTube:</strong></a> we post interviews, lives and compilation videos with English subtitles featuring the best fanmeeting moments.<br>— <a href='https://www.tiktok.com/@emibonniebr' target='_blank'><strong>TikTok:</strong></a> constant videos so no one misses any news about the girls.<br>— <a href='https://www.instagram.com/emibonniebr' target='_blank'><strong>Instagram:</strong></a> we share photos, short videos and also support their sponsored posts by liking, commenting and sharing.<br>— <a href='https://t.me/+rooNNEaa44E3NWIx' target='_blank'><strong>Telegram:</strong></a> we have already released 14 subtitled episodes of <em>MouseTH</em>, and the remaining 6 will be coming soon.<br><br>If you want to suggest content or request something specific, we are always available. The admins work hard to keep everything accessible and to help more and more people discover and follow EmiBonnie.",
     "btn_emi": "About Emi",
     "btn_bonnie": "About Bonnie",
     "btn_fanbase": "About the fanbase",
@@ -85,7 +85,7 @@
     
     "award_nominated_wemi": "Nominated together with Emi",
     
-    "section_facts_p1": "💡 She has her own brand called VURV.BKK <a href=\"https://www.instagram.com/vurv.bkk/\" target=\"_blank\">{VURV IG}</a> <a href=\"https://x.com/vurvbkk\" target=\"_blank\">{VURV X}</a>",
+    "section_facts_p1": "💡 She has her own brand called VURV.BKK and a brand with friends called RUNIX<br><a href='https://www.instagram.com/vurv.bkk/' target='_blank'>{VURV IG}</a> <a href='https://x.com/vurvbkk' target='_blank'> {VURV X}</a> <a href='https://www.instagram.com/runix.official/' target='_blank'>{RUNIX IG}</a> <a href='https://www.tiktok.com/@runix.official9' target='_blank'> {RUNIX TIKTOK}</a>",
     "section_facts_p2": "💡 Favorite foods: spicy food, salmon, shabu, and strawberries",
     "section_facts_p3": "💡 Favorite colors: black and pink-purple",
     "section_facts_p4": "💡 Bonnie does not eat beef due to religious preferences (Buddhism)",
@@ -165,7 +165,9 @@
 
     "lottery_title": "🎉 Giveaway result",
     "lottery_winners": "🏆 Winners",
-    "lottery_message": "We sincerely thank everyone who contributed to this project 💖. <br>The giveaway was an initiative organized by the admins not only to help with donations, but mainly as a way to show appreciation for all the support and love we received. <br>If it were possible, everyone would be a winner, but unfortunately we had a limited number of cards available for the giveaway. <br>Even so, every participation was extremely important in making this project a reality 🧡💜"
+    "lottery_message": "We sincerely thank everyone who contributed to this project 💖. <br>The giveaway was an initiative organized by the admins not only to help with donations, but mainly as a way to show appreciation for all the support and love we received. <br>If it were possible, everyone would be a winner, but unfortunately we had a limited number of cards available for the giveaway. <br>Even so, every participation was extremely important in making this project a reality 🧡💜",
+  
+    "doc_message": "We also provide a complete document with all project information, including payments, costs, receipts, and other details, ensuring total transparency. <br>If you wish to check or follow everything, just access here: <a href='https://docs.google.com/document/d/1l8vZcClkEfjCafYGc7ltVHEhZaM8qHYvu37zI8yLK2U' target='_blank'><strong>Document</strong></a><br>or copy and paste or follow the link: https://docs.google.com/document/d/1l8vZcClkEfjCafYGc7ltVHEhZaM8qHYvu37zI8yLK2U 🧡💜"
   },
   "index": {
     "home": "Home",
