@@ -70,7 +70,7 @@ function updateLangButtonLabel(lang) {
   if (lang === "pt") {
     btn.innerHTML = `
       PT
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/2560px-Flag_of_Brazil.svg.png"
+      <img src="img/Flag_of_Brazil.svg.png"
            width="17"
            style="vertical-align: middle; margin-right: 6px;">
     `;
