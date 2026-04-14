@@ -6,7 +6,7 @@ let translations = {};
 function cacheDefaultTexts() {
   document.querySelectorAll("[data-i18n]").forEach(el => {
     if (!el.dataset.i18nDefault) {
-      el.dataset.i18nDefault = el.innerHTML.trim();
+      el.dataset.i18nDefault = el.innerHTML.trim(); // guarda HTML inteiro
     }
   });
 }
@@ -16,27 +16,25 @@ function getNested(obj, path) {
   return path.split(".").reduce((acc, part) => acc && acc[part], obj);
 }
 
-// aplica traduções
+// aplica traduções na página atual
 function translatePage() {
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const key = el.dataset.i18n;
     const newHtml = getNested(translations, key);
 
     if (newHtml) {
-      el.innerHTML = newHtml;
+      el.innerHTML = newHtml;           // aplica HTML da tradução
     } else if (currentLang === "pt") {
       const original = el.dataset.i18nDefault;
-      if (original) el.innerHTML = original;
+      if (original) el.innerHTML = original; // restaura HTML original
     }
   });
 }
 
-// carrega JSON
+// carrega JSON e muda idioma
 async function setLanguage(lang) {
   currentLang = lang;
   document.documentElement.lang = lang;
-
-  localStorage.setItem("siteLanguage", lang);
 
   if (lang === "pt") {
     translations = {};
@@ -48,7 +46,6 @@ async function setLanguage(lang) {
   try {
     const res = await fetch(`lang/${lang}.json`);
     if (!res.ok) throw new Error("Erro ao carregar JSON de idioma");
-
     translations = await res.json();
     translatePage();
     updateLangButtonLabel(lang);
@@ -57,12 +54,11 @@ async function setLanguage(lang) {
   }
 }
 
-// botão PT → ES → EN
+// botão PT → ES → EN → PT
 function cycleLanguage() {
   const currentIndex = langOrder.indexOf(currentLang);
   const nextIndex = (currentIndex + 1) % langOrder.length;
   const nextLang = langOrder[nextIndex];
-
   setLanguage(nextLang);
 }
 
@@ -78,18 +74,14 @@ function updateLangButtonLabel(lang) {
            width="17"
            style="vertical-align: middle; margin-right: 6px;">
     `;
-  }
-
-  else if (lang === "es") {
+  } else if (lang === "es") {
     btn.innerHTML = `
       ES
       <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg"
            width="17"
            style="vertical-align: middle; margin-right: 6px;">
     `;
-  }
-
-  else if (lang === "en") {
+  } else if (lang === "en") {
     btn.innerHTML = `
       EN
       <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg"
@@ -99,38 +91,18 @@ function updateLangButtonLabel(lang) {
   }
 }
 
-// detecta idioma do navegador
-function detectUserLanguage() {
-  const browserLang = navigator.language || navigator.userLanguage;
-
-  if (browserLang.startsWith("pt")) return "pt";
-  if (browserLang.startsWith("es")) return "es";
-  if (browserLang.startsWith("en")) return "en";
-
-  return "en"; // fallback
-}
-
 // inicialização
 window.addEventListener("load", () => {
-
-  cacheDefaultTexts();
-
+  cacheDefaultTexts();           // salva PT da página atual
   const btn = document.getElementById("langToggle");
   if (btn) {
     btn.addEventListener("click", cycleLanguage);
   }
-
-  // verifica se já existe idioma salvo
-  let savedLang = localStorage.getItem("siteLanguage");
-
-  if (!savedLang) {
-    savedLang = detectUserLanguage();
-  }
-
-  setLanguage(savedLang);
+  updateLangButtonLabel(currentLang);
+  setLanguage("pt");             // começa em PT (só garante estado)
 });
 
-// expõe para router
+// expõe para o router
 window.cacheDefaultTexts = cacheDefaultTexts;
 window.translatePage = translatePage;
 window.setLanguage = setLanguage;

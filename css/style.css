@@ -1188,6 +1188,24 @@ footer {
     transform: scale(1.05);
 }
 
+.video-like-image {
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    margin: 20px 0;
+}
+
+.video-like-image video {
+  display: block;
+  width: auto;
+  height: 700px;
+  max-width: 100%;
+  border-radius: 14px;
+  box-shadow: var(--shadow-soft);
+  transition: 0.25s ease;
+}
+
 /* ============================================================
    PROJECT MEDIA STACK BUQUE
 ============================================================ */
@@ -1251,6 +1269,11 @@ footer {
         height: auto;
     }
 
+    .video-like-image {
+        width: 100%;
+        max-width: 100%;     /* ocupa tudo */
+        height: auto;
+    }
 }
 
 /* ============================================================
